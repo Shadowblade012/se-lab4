@@ -1,0 +1,5 @@
+# Test store swapping to primary and running out in SINGLE mode
+GT4500,2,0,0,0 # <-- expected: SUCCESS
+TORPEDO,SINGLE # <-- expected: SUCCESS
+TORPEDO,SINGLE # <-- expected: SUCCESS
+TORPEDO,SINGLE # <-- expected: FAIL
