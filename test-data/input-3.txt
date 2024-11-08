@@ -1,0 +1,7 @@
+# Test repeated firings in SINGLE mode
+GT4500,2,0,2,0 # <-- expected: SUCCESS
+TORPEDO,SINGLE # <-- expected: SUCCESS
+TORPEDO,SINGLE # <-- expected: SUCCESS
+TORPEDO,SINGLE # <-- expected: SUCCESS
+TORPEDO,SINGLE # <-- expected: SUCCESS
+TORPEDO,SINGLE # <-- expected: FAIL

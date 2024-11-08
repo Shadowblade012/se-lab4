@@ -1,0 +1,5 @@
+# Test dual, single and empty fire in ALL mode
+GT4500,1,0,2,0 # <-- expected: SUCCESS
+TORPEDO,ALL # <-- expected: SUCCESS
+TORPEDO,ALL # <-- expected: SUCCESS
+TORPEDO,ALL # <-- expected: FAIL
